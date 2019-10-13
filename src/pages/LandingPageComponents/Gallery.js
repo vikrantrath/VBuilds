@@ -5,7 +5,7 @@ import './Gallery.css'
 
 const Gallery = ()=>{
     const galleryItems = getGalleryItems()
-    return <div className="item-c">
+    return <div className="item-c" id="Gallery">
           <Carousel style={{height:'100%'}}>
             {galleryItems.map(item=>{
               return (<Carousel.Item >
