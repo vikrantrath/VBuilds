@@ -1,0 +1,40 @@
+.welcomePage{
+    /* background-image: url("/backGround.png"); */
+    background-image: url("https://medatech.com/wp-content/uploads/2017/11/Website-Background.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 85px auto auto;
+    grid-template-areas: 
+        "header header  header header"
+        "testimonial testimonial gallery  gallery"
+        "about about  contact contact";
+}
+
+.item-a {
+    grid-area: header;
+  }
+  .item-b {
+    grid-area: about;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+  .item-b.first{
+    background-color: rgba(255, 255, 255, 1);
+    flex-flow: 1;
+  }
+  .item-c {
+    grid-area: gallery;
+    max-height: 100%;
+  }
+  .item-d {
+    grid-area: contact;
+}
+.item-e {
+    grid-area: testimonial;
+    display: flex;
+}
