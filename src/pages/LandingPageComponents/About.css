@@ -5,10 +5,7 @@ p{
 h1{
     color: white;
 }
-.nonTrans{
-    background-image: url("/backGround.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.first{
     flex-grow: 1;
-    min-width: 50%;
 }
