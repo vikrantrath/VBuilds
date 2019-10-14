@@ -9,3 +9,42 @@ h1{
 .first{
     flex-grow: 1;
 }
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.first-section {
+    background-color: whitesmoke;
+}
+
+.first-section p{
+    margin: 0 0 1em;
+    line-height: 1.5;
+    color : black ;
+}
+
+.second-section {
+    background-color: gray;
+}
+
+.second-section p{
+    color:white;
+}
+
+.diagonal-background {
+    width: 100%;
+    height: 175px;
+    padding: 7% 0 0;
+    background-image: url("/diagseparator.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: -95px;
+    left: 125px;
+}
